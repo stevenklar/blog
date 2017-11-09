@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-11-08T18:11:29-06:00</updated><id>/</id><title type="html">skdo</title><subtitle>Just my two cents
+</subtitle><entry><title type="html">Braindump</title><link href="/random/2017/11/09/braindump.html" rel="alternate" type="text/html" title="Braindump" /><published>2017-11-08T18:00:00-06:00</published><updated>2017-11-08T18:00:00-06:00</updated><id>/random/2017/11/09/braindump</id><content type="html" xml:base="/random/2017/11/09/braindump.html">&lt;p&gt;Hello there,&lt;/p&gt;
+
+&lt;p&gt;you will find some stuff about dev, ops and devops in the near future when I feel about it.&lt;/p&gt;
+
+&lt;p&gt;Mostly technologies arround:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Docker&lt;/li&gt;
+  &lt;li&gt;Larvel&lt;/li&gt;
+  &lt;li&gt;Monitoring&lt;/li&gt;
+  &lt;li&gt;Log centralsation&lt;/li&gt;
+  &lt;li&gt;Unixporn&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Hello there,</summary></entry></feed>
