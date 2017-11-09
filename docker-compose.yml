@@ -1,0 +1,20 @@
+version: "3.3"
+
+services:
+  jekyll:
+    image: stevenklar/jekyll
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      VIRTUAL_HOST: blog.steven-klar.de
+      VIRTUAL_PORT: 4000
+    # command: jekyll serve
+    command: jekyll serve --draft
+    networks:
+        - proxy
+
+networks:
+  proxy:
+    external:
+      name: nginx-proxy

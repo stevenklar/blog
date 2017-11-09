@@ -1,0 +1,12 @@
+version: "3.3"
+
+services:
+  jekyll:
+    environment:
+      VIRTUAL_HOST: blog.skdo
+    command: jekyll serve --draft
+    volumes:
+      - ./:/srv/jekyll
+    ports:
+      - "4000:4000"
+
