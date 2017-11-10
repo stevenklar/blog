@@ -9,8 +9,9 @@ services:
     environment:
       VIRTUAL_HOST: blog.steven-klar.de
       VIRTUAL_PORT: 4000
-    # command: jekyll serve
-    command: jekyll serve --draft
+    deploy:
+      replicas: 3
+    command: jekyll serve
     networks:
         - proxy
 
