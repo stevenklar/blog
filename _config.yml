@@ -33,7 +33,6 @@ defaults:
       path: "posts"
       type: posts
     values:
-      layout: single
       author_profile: true
       read_time: true
       comments: true
@@ -44,13 +43,11 @@ defaults:
       path: "pages"
       type: pages
     values:
-      layout: single
       author_profile: true
   # _talks
   - scope:
       path: "talks"
       type: talks
     values:
-      layout: talk
       author_profile: true
       share: true
