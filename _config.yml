@@ -16,38 +16,3 @@ author:
 encoding: utf-8
 
 timezone: Europe/Berlin
-
-# Collections
-collections:
-  posts:
-    output: true
-    permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
-
-# Defaults
-defaults:
-  # _posts
-  - scope:
-      path: "posts"
-      type: posts
-    values:
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-  # _pages
-  - scope:
-      path: "pages"
-      type: pages
-    values:
-      author_profile: true
-  # _talks
-  - scope:
-      path: "talks"
-      type: talks
-    values:
-      author_profile: true
-      share: true
