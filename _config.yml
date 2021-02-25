@@ -30,7 +30,7 @@ collections:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "posts"
       type: posts
     values:
       layout: single
@@ -41,14 +41,14 @@ defaults:
       related: true
   # _pages
   - scope:
-      path: ""
+      path: "pages"
       type: pages
     values:
       layout: single
       author_profile: true
   # _talks
   - scope:
-      path: ""
+      path: "talks"
       type: talks
     values:
       layout: talk
