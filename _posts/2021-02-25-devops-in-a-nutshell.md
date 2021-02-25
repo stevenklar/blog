@@ -6,6 +6,7 @@ category: devops
 author:
 tags: [devops]
 summary:
+permalink: /devops-in-a-nutshell
 ---
 
 # Systems Thinking
