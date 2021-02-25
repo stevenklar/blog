@@ -1,1 +1,17 @@
+title: "Steven Klar"
+title_seperator: "|"
 theme: jekyll-theme-minimal
+name: &name "Steven Klar"
+future: true
+
+twitter:
+  username: "stevenklar"
+
+author:
+  name: "Steven Klar"
+  avatar: "https://pbs.twimg.com/profile_images/1086708630689406976/9KraBDnv_400x400.jpg"
+  location: "Potsdam, Germany"
+  github: "stevenklar"
+
+encoding: utf-8
+
